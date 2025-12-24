@@ -98,7 +98,7 @@ export default function App() {
             </div>
           </div>
           <h1 className="text-5xl font-bold mb-4 bg-gradient-to-r from-cyan-400 to-cyan-600 bg-clip-text text-transparent">
-            Excel Transaction Analyzer
+            BharatNetra's NCRP-GraphX
           </h1>
           <p className="text-lg text-slate-400 font-medium max-w-2xl mx-auto">
             Visualize complex transaction hierarchies with interactive layer-based diagrams

@@ -99,7 +99,11 @@ export function buildTree(data) {
           "Acknowledgement",
           "AcknowledgementN",
         ]),
-        fscCode: getValueByNormalizedKey(row, ["FSC Code", "FSCCode", "FSC"]),
+        ifscCode: getValueByNormalizedKey(row, [
+          "IFSC Code",
+          "IFSCCode",
+          "IFSC",
+        ]),
         state: getValueByNormalizedKey(row, ["State"]),
         district: getValueByNormalizedKey(row, ["District"]),
         policeStation: getValueByNormalizedKey(row, [
